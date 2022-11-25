@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.control {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-left: -40px;
+}
+
+.statisticItem{
+    margin-top: 4px;
+    margin-left: 10px;
+    list-style: none;
+    font-weight: 1;
+}
